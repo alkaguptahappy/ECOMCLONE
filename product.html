@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Clothing - Best Apparels online store</title>
+    <link rel="stylesheet" href="css/product.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="nav">
+                <img src="img/dark-logo.png" class="brand-logo" alt="">
+                <div class="nav-items">
+                    <div class="search">
+                        <input type="text" class="search-box" placeholder="search brand, product">
+                        <button class="search-btn">search</button>
+                    </div>
+                    <a href="#"><img src="img/user.png" alt=""></a>
+                   
+                    <a href="#" > <img src="img/cart.png" alt=""><i id="cartid" class="cart"  value="0"></i></a>
+                
+                </div>
+            </div>
+            <ul class="link-container">
+              <li class="link-item"><a href="index.html" class="link">Home</a></li>
+              <li class="link-item"><a href="#" class="link">women</a></li>
+              <li class="link-item"><a href="#" class="link">men</a></li>
+              <li class="link-item"><a href="#" class="link">kids</a></li>
+              <li class="link-item"><a href="#" class="link">accesories</a></li>
+            </ul>
+        </nav>
+        <section class="product-details">
+            <div class="image-slider">
+                <div class="product-images">
+                    <img src="img/product image 1.png" class="active" alt="">
+                    <img src="img/product image 2.png" alt="">
+                    <img src="img/product image 3.png" alt="">
+                    <img src="img/product image 4.png" alt="">
+                </div>
+            </div>
+
+            <div class="details">
+                <h2 class="product-brand">calvin klein</h2>
+                <p class="product-short-des">100% cotton dry clean only</p>
+                <span class="product-price">RS.900</span>
+                <span class="product-actual-price">Rs.1800</span>
+                <span class="product-discount">( 50% off )</span>
+        
+                <p class="product-sub-heading">select size</p>
+        
+                <input type="radio" name="size" value="s" checked hidden id="s-size">
+                <label for="s-size" class="size-radio-btn check">s</label>
+                <input type="radio" name="size" value="m" hidden id="m-size">
+                <label for="m-size" class="size-radio-btn">m</label>
+                <input type="radio" name="size" value="l" hidden id="l-size">
+                <label for="l-size" class="size-radio-btn">l</label>
+                <input type="radio" name="size" value="xl" hidden id="xl-size">
+                <label for="xl-size" class="size-radio-btn">xl</label>
+                <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+                <label for="xxl-size" class="size-radio-btn">xxl</label>
+        
+                <button class="cart-btn">add to cart</button>
+                <button class="btn">add to wishlist</button>
+            </div>
+        </section>
+        <script src="js/product.js"></script>
+    </body>
+</html>
